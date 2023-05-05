@@ -15,6 +15,7 @@
 		<input type="text" placeholder="Contact No">
 		<input type="text" placeholder="Purpose Of Contact">
 		<textarea placeholder="Your Message..." id="message"></textarea>
+		<input type="submit">
 	</form>
 </div>
 
@@ -35,6 +36,11 @@
 		<button class="contact">Contact Us</button>
 	</div>
 </div>
+
+<footer id="footer">
+	<p>Copyright © 2023 Cloud View Technology</p>
+	<p>Powered by Cloud View Technology</p>
+</footer>
 
 <style>
 	#main {
@@ -107,6 +113,7 @@
 		background-size: cover;
 		background-blend-mode: darken;
 		color: white;
+		padding: 50px;
 	}
 
 
@@ -129,5 +136,13 @@
 		padding: 10px;
 		margin-top: 15px;
 		font-size: 16px;
+	}
+
+	#footer {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 30px 10px 30px;
+		color: white;
+		background-color: #203444;
 	}
 </style>
