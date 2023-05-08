@@ -1,7 +1,7 @@
 <nav id="navbar">
 	<div id="nav-start">
 		<a href="/">
-			<img src="logo.jpg" alt="Cloud View Technology">
+			<img id="logo" width="400px" src="logo.png" alt="Cloud View Technology">
 		</a>
 	</div>
 	<div id="nav-end">
@@ -15,6 +15,10 @@
 <style>
 	:root {
 		font-family: 				Poppins, sans-serif;
+	}
+
+	#logo {
+		margin-top: 9px;
 	}
 
 	#navbar {
