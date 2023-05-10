@@ -1,8 +1,18 @@
+<script>
+	function learnmore() {
+		window.scrollTo({top: 994, behavior: "smooth"});
+	}
+
+	function contact() {
+		window.scrollTo({top: 0, behavior: "smooth"});
+	}
+</script>
+
 <div id="main">
 	<div id="text">
 		<h1>We are committed to making IT work for your business</h1>
 		<p>We welcome all sorts of enquiries in the field of IT solutions and business consulting services.</p>
-		<button id="learn-more">
+		<button on:click={learnmore} id="learn-more">
 			Learn More
 			<img src="down.svg" width="11px" alt="">
 		</button>
@@ -23,17 +33,17 @@
 	<div id="security" class="service">
 		<h2>Security solutions</h2>
 		<p>We help your business with our full-spectrum scanning, testing, auditing, compliance and protection solutions for your IT system and web applications.</p>
-		<button class="contact">Contact Us</button>
+		<button on:click={contact} class="contact">Contact Us</button>
 	</div>
 	<div id="outsourcing" class="service">
 		<h2>IT outsourcing</h2>
 		<p>We provide on-site security measurement services, as well as firewall configuration, log audit, patches update, antivirus and anti-spam solution.</p>
-		<button class="contact">Contact Us</button>
+		<button on:click={contact} class="contact">Contact Us</button>
 	</div>
 	<div id="consultancy" class="service">
 		<h2>Consultancy</h2>
 		<p>Members of our professional teams are multi-skilled and experienced consultants, system analysts and project managers.</p>
-		<button class="contact">Contact Us</button>
+		<button on:click={contact} class="contact">Contact Us</button>
 	</div>
 </div>
 
